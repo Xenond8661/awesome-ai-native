@@ -1,0 +1,45 @@
+name: lint
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+    awesome-lint:
+      strategy:
+        fail-fast: false
+        matrix:
+          files:
+            - "README.md"
+      runs-on: ubuntu-latest
+      steps:
+        - name: "checkout repo"
+          uses: actions/checkout@v7
+          with:
+            fetch-depth: 0
+        - name: "setup node"
+          uses: actions/setup-node@v7
+        - name: "linting: ${{ matrix.files }}"
+          run: npx -y awesome-lint ${{ matrix.files }}
+    awesome-bot:
+      strategy:
+        fail-fast: false
+        matrix:
+          files:
+            - "README.md"
+      runs-on: ubuntu-latest
+      steps:
+        - name: "checkout repo"
+          uses: actions/checkout@v7
+          with:
+            fetch-depth: 0
+        - name: "setup ruby"
+          uses: ruby/setup-ruby@v1
+          with:
+            ruby-version: "3.3"
+            bundler-cache: true
+        - name: "install awesome-bot"
+          run: gem install awesome_bot
+        - name: "linting: ${{ matrix.files }}"
+          run: awesome_bot --allow-redirect --white-list https://github.com/samber/awesome-ai-native,https://www.linkedin.com,https://x.com,https://twitter.com,https://discord.gg,https://discord.com,https://medium.com,https://www.reddit.com,https://reddit.com,https://arxiv.org ${{ matrix.files }}

@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+.idea/
+.vscode/
+.claude/
+
+# Astro site build tooling
+site/node_modules/
+site/dist/
+site/.astro/

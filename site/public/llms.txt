@@ -1,0 +1,27 @@
+# Awesome AI-Native
+
+> A curated list of AI-native products and resources — where an LLM is the product, not a feature. 250+ tools across 40+ categories, for builders and practitioners.
+
+## What is this?
+
+Awesome AI-Native is an open-source reference list maintained by Samuel Berthe. It tracks products where a large language model is the core of the experience, not an "AI-powered" feature bolted onto a legacy tool. Entries are dropped once a product shuts down or pivots away from AI.
+
+AI-native means the product would not exist without the model: the LLM is the interface, the engine, and the value. This list covers the full ecosystem — from consumer chat apps and coding agents to the models, compute, and developer tooling underneath them.
+
+## Coverage
+
+- **Chat & agents** — ChatGPT, Claude, Gemini, Grok, Meta AI, general-purpose agents, self-hosted personal AI agents, computer-use models
+- **Vibe-coding and vibe-engineering** — coding agents, code understanding and docs, app builders
+- **Knowledge work** — AI search and research, knowledge management, meetings and voice
+- **Industry applications** — customer support, sales and CRM, legal, healthcare, education
+- **Creative & media** — design, image generation, video generation, audio and music
+- **Models & robotics** — open-weight models, small language models, robotics and embodied AI, OCR
+- **Compute & infrastructure** — AI chips and hardware, local inference, developer infrastructure, sandboxes
+- **Developer tooling** — frameworks and SDKs, MCP and integrations, vector databases and retrieval, agent memory, evaluation and observability
+- **Learning & community** — newsletters and blogs, podcasts, people to follow, courses, foundational papers, events, communities
+
+## Links
+
+- Source: https://github.com/samber/awesome-ai-native
+- Website: https://samber.github.io/awesome-ai-native/
+- GitHub: https://github.com/samber
